@@ -1,0 +1,25 @@
+{
+  "name": "cfxacharya",
+  "title": "cfxacharya",
+  "id": "jid1-peJoY1HVVrSxDQ",
+  "description": "Closes the tabs on a set interval except one. redirects that one to a specified address.",
+  "author": "victortheleon@gmail.com",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "preferences": [
+    {
+      "description": "How many seconds to repeat the incident.",
+      "name": "repeatInterval",
+      "type": "integer",
+      "value": 30,
+      "title": "Repeat Interval( in seconds )"
+    },
+    {
+      "description": "Does it need to turn full screen on?",
+      "type": "bool",
+      "name": "doFullScreen",
+      "value": false,
+      "title": "Should it turn browser to full screen?"
+    }
+  ]
+}
